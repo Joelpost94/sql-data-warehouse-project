@@ -4,21 +4,24 @@ This project is a personal initiative to design and build a modern Data Warehous
 # Project Overview
 
 ### Objective
-1. Design a scalable Data Warehouse structure
+The goal of this to project is:
 
-2. Apply the Bronze-Silver-Gold data modeling pattern
-
-3. Practice with T-SQL for DDL and DML operations
-
-4. Prepare data for Business Intelligence and reporting
-
-5. Simulate real-world customer, product, and sales datasets
+1. Design a scalable Data Warehouse structure using the Medallion Archtecture the Bronze-Silver-Gold data modeling layers
+2. Create ETL pipelines: extracting, Transform and Loading data from the Source system into the datawarehouse.
+3. Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
 ## Structure
 Bronze Layer: Raw ingested data (CRM, ERP, etc.)
 
-Silver Layer: Cleaned and joined data
+Silver Layer: Cleaned and joined data using Stored procedures in SSMS
 
 Gold Layer: Aggregated, business-ready data models
 
-## Project requirements
+## Used Technologies
+
+- SQL Server / T-SQL
+
+- GitHub for version control
+
+- 
