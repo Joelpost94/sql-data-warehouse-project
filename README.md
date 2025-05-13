@@ -3,6 +3,7 @@ This project is a personal initiative to design and build a modern Data Warehous
 
 ## Project requirements
 
+# Project Overview
 
 ### Objective
 1. Design a scalable Data Warehouse structure
